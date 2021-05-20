@@ -10,4 +10,9 @@ public class AppController {
     public String home(){
         return "index";
     }
+
+    @RequestMapping
+    public String info(){
+        return "home";
+    }
 }
